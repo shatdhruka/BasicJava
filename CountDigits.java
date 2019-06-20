@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.Scanner;
-class CountDigits
+public class CountDigits
 {
     public static void Digits(int N)
     {
