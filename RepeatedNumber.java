@@ -7,9 +7,9 @@ public class RepeatedNumber
     {
         int x;
         int b[]=new int[n];
-        for(int i=0;i<n;i++)
+        for(int i=0; i<n; i++)
         {
-            for(int j=i+1;j<n;j++)
+            for(int j=i+1; j<n; j++)
             {
                 if(a[i]==a[j])
                 {
@@ -24,7 +24,7 @@ public class RepeatedNumber
                 }
             }
         }
-        for(int i=0;i<n;i++)
+        for(int i=0; i<n; i++)
         {
             if(b[i]!=0)
             {
@@ -38,7 +38,7 @@ public class RepeatedNumber
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		int a[]=new int[n];
-		for(int i=0;i<n;i++)
+		for(int i=0; i<n; i++)
 		{
 		    a[i]=sc.nextInt();
 		}
